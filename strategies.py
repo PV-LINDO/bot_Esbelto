@@ -8,7 +8,6 @@ from chess.engine import PlayResult
 from engine_wrapper import EngineWrapper
 import time
 from threading import Thread
-#lip_JYnnhvNoXJwO6ejjx8ep
 
 class FillerEngine:
     """
@@ -79,8 +78,6 @@ class MinimalEngine(EngineWrapper):
 
 
 class esbelto(MinimalEngine):
-
-    #C:\Users\NOTEHOME\Desktop\lichess-bot-master
 
     def __init__(self, commands, options, stderr, draw_or_resign, name=None, **popen_args):
         super().__init__(commands, options, stderr, draw_or_resign, name, **popen_args)
